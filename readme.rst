@@ -1,4 +1,10 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Versi 1.0.3
+Nama Projek   : dklt (Data Keanggotaan LiteTekno)
+run projek    : http://localhost/dklt/
+Database      : dklt
+File Database : dklt.sql (Silahkan Ekspor)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ###################
 What is CodeIgniter
