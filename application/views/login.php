@@ -59,7 +59,7 @@
               <div class="col-lg-12">
                 <div class="login-form">
                   <div class="text-center">
-                    <img src="<?= base_url('assets/admin/img/logo/litetekno.png'); ?>" alt="LiteTekno" width="100px"><br><br>
+                    <img src="<?= base_url('assets/admin/img/logo/litetekno.png'); ?>" alt="LiteTekno" width="100px"><br>
                     <h1 class="h4 text-gray-900">Login DKLT</h1>
                     <h6 class="text-gray-900 mb-4">(Data Keanggotaan LiteTekno)</h6>
                   </div>
@@ -101,7 +101,7 @@
                     </div> -->
                      <div class="form-group">
                       <input type="submit" id="sign" class="btn btn-primary btn-block" value="Login">
-                      <button id="auth" class="btn btn-block">Mengautentikasi <i class='fa fa-spinner'></i></button><br>
+                      <button id="auth" class="btn btn-block">Mengautentikasi <i class='fa fa-spinner'></i></button>
                     </div>
                   </form>
                   <hr>

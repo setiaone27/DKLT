@@ -76,7 +76,7 @@
     </div>
     <?php } ?>
     <!-- DATA APA AJA -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <!-- <div class="col-xl-3 col-md-6 mb-4">
       <div class="card h-100">
         <div class="card-body">
           <div class="row no-gutters align-items-center">
@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     
     <div class="col-xl-8 col-lg-7 mb-4">
       <div class="card">

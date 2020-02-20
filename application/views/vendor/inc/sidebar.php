@@ -41,6 +41,12 @@
     <span>Divisi</span>
   </a>
 </li>
+<li class="nav-item ">
+  <a class="nav-link" href="<?= site_url('vendor/data-user'); ?>">
+    <i class="fas fa-fw fa-user"></i>
+    <span>User</span>
+  </a>
+</li>
 <hr class="sidebar-divider">
 <div class="version" id="version-ruangadmin"></div>
 </ul>

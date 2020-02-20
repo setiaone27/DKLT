@@ -27,6 +27,10 @@ class Login extends CI_Controller {
 				$sdata['user_id']=$result->id_user;
 				$sdata['full_name']=$result->nama_lengkap;
 				$sdata['last_name']=$result->username;
+				$sdata['pass_word']=$result->password;
+				$sdata['email_user']=$result->email;
+				$sdata['nohp_user']=$result->no_hp;
+				$sdata['alamat_user']=$result->alamat;
 				$sdata['foto_user']=$result->foto;
 				$this->session->set_userdata($sdata);
 			}

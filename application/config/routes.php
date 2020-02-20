@@ -53,5 +53,6 @@ $route['default_controller'] = 'login';
 $route['vendor/data-anggota'] = 'vendor/data_anggota';
 $route['vendor/input-anggota'] = 'vendor/data_anggota/input_anggota';
 $route['vendor/data-divisi'] = 'vendor/data_divisi';
+$route['vendor/data-user'] = 'vendor/data_user';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

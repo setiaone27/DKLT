@@ -75,14 +75,17 @@ CREATE TABLE `user` (
   `username` varchar(100) DEFAULT NULL,
   `password` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
+  `no_hp` varchar(14) DEFAULT NULL,
+  `alamat` text,
   `foto` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 /*Data for the table `user` */
 
-insert  into `user`(`id_user`,`nama_lengkap`,`username`,`password`,`email`,`foto`) values 
-(1,'Iwan Setiawan','admin','21232f297a57a5a743894a0e4a801fc3','siwan2701@gmail.com','iwan.png');
+insert  into `user`(`id_user`,`nama_lengkap`,`username`,`password`,`email`,`no_hp`,`alamat`,`foto`) values 
+(1,'Iwan Setiawan','admin','01ccce480c60fcdb67b54f4509ffdb56','siwan2701@gmail.com','089509400841','Jl. Cagar Alam Selatan Kp. Rawageni ','1582153250713.jpg'),
+(3,'Budi Sudarsono','budi','00dfc53ee86af02e742515cdcf075ed3','budi@gmail.com','089624944750','Citayam','1582156326941.png');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
